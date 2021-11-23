@@ -1,0 +1,29 @@
+body{
+  background-color: rgb(40, 44, 52);
+  color: #D8E3E7;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+img{
+  border-radius: 200px;
+  height: 180px;
+  width: 180px;
+}
+
+hr{
+  border-top: dotted;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  border-width: 5px;
+  color: #194350;
+  width: 10%;
+}
+
+h1{
+  color: #89C9B8;
+}
+
+h2{
+  color: #89C9B8;
+}
