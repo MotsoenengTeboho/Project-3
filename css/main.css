@@ -81,6 +81,7 @@ p{
   background: #69DADB;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
+  border-style: none;
 }
 
 .btn:hover {
@@ -135,6 +136,15 @@ p{
 .divFooter{
   background-color: #007880;
   padding: 30px 0;
+}
+
+.download{
+  color: #396EB0;
+}
+
+.download:hover{
+  color: #69DADB;
+  cursor: pointer;
 }
 
 .images{

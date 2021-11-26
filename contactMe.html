@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Me</title>
+
+    <link rel="stylesheet" href="css/contact.css">
+  </head>
+  <body>
+    <div class="topContainer">
+
+      <div class="container divInfo">
+        <h1>Contact Me</h1>
+        <!--My end point API is mrgjzqpv from formspree and I will be using that API to get my emails-->
+        <form class="" action="https://formspree.io/f/mrgjzqpv" method="post" id="my-form">
+          <div class="formContainer">
+            <input type="text" name="First Name" id="fName" value="" placeholder="First Name" required>
+            <input type="text" name="Last Name" id="lName" value="" placeholder="Last Name" required>
+            <input type="email" name="Email" id="email" value="" placeholder="Email Address" required>
+            <label for="">Message</label>
+            <textarea name="Message" id="message" rows="8" cols="30"></textarea>
+            <button class="btn" type="submit" name="">Send Message</button>
+            <div class="success" id="status">
+            </div>
+            <a href="main.html">Go back</a>
+          </div>
+        </form>
+      </div>
+
+    </div>
+
+    <script type="text/javascript" src="scripts/contactJS.js"></script>
+  </body>
+</html>
