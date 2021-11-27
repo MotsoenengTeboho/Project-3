@@ -138,6 +138,12 @@ p{
   padding: 30px 0;
 }
 
+.divFooterIcons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .download{
   color: #396EB0;
 }
@@ -145,6 +151,11 @@ p{
 .download:hover{
   color: #69DADB;
   cursor: pointer;
+}
+
+.footerImages{
+  height: 30px;
+  width: 30px;
 }
 
 .images{
