@@ -42,14 +42,14 @@ h3{
 }
 
 nav{
-  height: 50px;
+  height: 48px;
   width: 100%;
   background: #69DADB;
   position: fixed;
 }
 
 nav ul{
-  float: right;
+  text-align: center;
   margin-right: 40px;
 }
 
@@ -66,8 +66,18 @@ nav li{
   line-height: 30px;
 }
 
+nav li:hover{
+  background-color: #DADDFC;
+}
+
 p{
   line-height: 2;
+}
+
+section{
+  justify-content: center;
+  align-items: center;
+  scroll-snap-align: center;
 }
 
 /*HTML classes sorted alphabetically*/
@@ -90,9 +100,10 @@ p{
   text-decoration: none;
 }
 
-.center {
-  margin-left: auto;
-  margin-right: auto;
+.center{
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .contactMessage{
@@ -120,8 +131,6 @@ p{
 }
 
 .divInfo{
-  justify-content: center;
-  align-items: center;
   text-align: center;
   padding: 100px 0;
 }
@@ -187,8 +196,11 @@ p{
   color: #69DADB;
 }
 
+.line{
+  margin-top: 80px;
+}
+
 .style:hover{
-  border: 2px solid #864879;
   cursor: pointer;
 }
 
@@ -209,6 +221,14 @@ p{
   margin-bottom: 0.5rem;
 }
 
+.wrapper{
+  width: 100%;
+  height: 100%;
+  /*Smooth scroll*/
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+}
+
 @media screen and (max-width: 990px) {
   .container{
     grid-template-columns: repeat(2, 1fr);
@@ -221,3 +241,7 @@ p{
     grid-template-columns: 1fr;
   }
 }
+
+/*Id's*/
+
+/*Keyframes*/
